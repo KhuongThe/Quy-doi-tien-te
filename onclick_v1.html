@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hay dien ten vao o trong</p>
+    <input type="text" id="demo">
+    <button onclick="fun_name()">Hien thi ten</button>
+</body>
+<script>
+    function fun_name() {
+        let tennhapvao = document.getElementById("demo");
+        let bien_ten = tennhapvao.value;
+        alert('Ten ban la: ' + bien_ten);
+        document.write('Ten ban la: ' + bien_ten);
+    }
+</script>
+</html>

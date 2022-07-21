@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hay nhap ten cua ban</p>
+    <input type="text" name="" id="demo1">
+    <button id="demo">click o day</button>
+</body>
+<script>
+    let tennhapvao = document.getElementById("demo");
+    tennhapvao.addEventListener("click",fun_name);
+    function fun_name() {
+        let dauvao = document.getElementById("demo1");
+        let bien_dauvao = dauvao.value;
+        alert(bien_dauvao);
+    }
+</script>
+</html>

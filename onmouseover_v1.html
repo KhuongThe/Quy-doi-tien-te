@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Day la doan van dang xem</p>
+</body>
+<script>
+    let layphantu = document.getElementById("demo");
+    layphantu.addEventListener("mouseover",fun_mouseover);
+    layphantu.addEventListener("mouseout",fun_mouseout);
+    function fun_mouseover(){
+        document.getElementById("demo").style.color = "red";
+    }
+    function fun_mouseout() {
+        document.getElementById("demo").style.color = "blue";
+    }
+</script>
+</html>

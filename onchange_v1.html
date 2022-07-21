@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hay lua chon dia diem 1111</p>
+    <select name="" id="demo">
+        <option value="Ha Noi">Ha Noi</option>
+        <option value="Hai Phong">Hai Phong</option>
+        <option value="Da Nang">Da Nang</option>
+        <option value="HCM">HCM</option>
+    </select>
+</body>
+<script>
+    let tendachon = document.getElementById("demo");
+    tendachon.addEventListener("change",fun_luachon);
+    function fun_luachon() {
+        let ketqualuachon = document.getElementById("demo").value;
+        alert(ketqualuachon);
+
+    }
+    
+</script>
+</html>
